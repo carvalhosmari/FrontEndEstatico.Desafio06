@@ -1,0 +1,120 @@
+@import url('http://fonts.cdnfonts.com/css/pan-pizza');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    background-color: #fefae0;
+}
+
+li {
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+    margin-right: 10%;
+    margin-top: 1%;
+    color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: "Pan Pizza", sans-serif;
+    font-size: 30px;
+}
+
+.divNavegacao {
+    display: flex;
+    flex-direction: row;
+    background-color: #541D08;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.secTitulo {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.titulo {
+    font-family: "Pan Pizza", sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    color: #B30000;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+.divConteudo {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.divImagem {
+    width: 20%;
+    align-content: center;
+}
+
+.divInfos {
+    width: 50%;
+    margin: auto;
+}
+
+.divPreco {
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    width: 80%;
+    height: 100%;
+    opacity: 90%;
+    align-self: center;
+}
+
+.btnAdicionar {
+    padding: 10px;
+    background-color: #B30000;
+    color: antiquewhite;
+    font-family: "Inter", sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnAdicionar:hover {
+    padding: 10px;
+    background-color: antiquewhite;
+    color: #B30000;
+    font-family: "Inter", sans-serif;
+    border-radius: 5px;
+}
+
+.sabor {
+    font-family: "Inter", sans-serif;
+    color: #B30000;
+}
+
+.ingredientes {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: #B30000;
+    font-size: 12px;
+}
