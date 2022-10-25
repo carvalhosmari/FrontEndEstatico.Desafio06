@@ -5,28 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ada's Pizza</title>
-    <link rel="stylesheet" href="CSS/styleSobremesa.css" />
-    <link rel="icon" type="image/x-icon" href="images/pizzafavicon.png">
+    <link rel="stylesheet" href="styleSobremesa.css" />
+    <link rel="icon" type="image/x-icon" href="../images/pizzafavicon.png" />
   </head>
   <body>
+    <header>
+      <nav>
+        <ul>
+          <div class="divNavegacao">
+            <li>
+              <a href="../index.html"
+                ><img class="logo" src="../images/pizzaicon.png" alt="logo"
+              /></a>
+            </li>
+            <li class="pizzaClick"><a href="../index.html">Pizzas</a></li>
+            <li class="sobremesaClick">
+              <a href="./pages/indexSobremesa.html">Sobremesas</a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <header>
-        <nav>
-          <ul>
-            <div class="divNavegacao">
-              <li><a href="../index.html"><img class="logo" src="../images/pizzaicon.png" alt="logo"></a></li>
-              <li class="pizzaClick"><a href="../index.html">Pizzas</a></li>
-              <li class="sobremesaClick">
-                <a href="./pages/indexSobremesa.html">Sobremesas</a>
-              </li>
-            </div>
-          </ul>
-        </nav>
-      </header>
-      <section class="secTitulo">
-        <h1 class="titulo">Sobremesas</h1>
-      </section>
-      <section class="container">
+      <div class="container">
+        <section class="secTitulo">
+          <h1 class="titulo">Sobremesas</h1>
+        </section>
         <div class="divConteudo">
           <div class="divImagem">
             <img
@@ -87,7 +91,7 @@
             </button>
           </div>
         </div>
-      </section>
+      </div>
     </main>
   </body>
 </html>
