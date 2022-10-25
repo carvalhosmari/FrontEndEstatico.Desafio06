@@ -1,5 +1,5 @@
-@import url('http://fonts.cdnfonts.com/css/pan-pizza');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
 
 * {
     margin: 0px;
@@ -31,15 +31,13 @@ header {
 
 li {
     list-style-type: none;
-    font-family: "Inter", sans-serif;
-    color: white;
     align-items: center;
 }
 
 a {
     text-decoration: none;
     color: white;
-    font-family: "Pan Pizza", sans-serif;
+    font-family: 'Caveat', cursive;
     font-size: 30pt;
     margin-left: 25px;
     margin-right: 25px;
@@ -72,7 +70,7 @@ a {
 }
 
 .titulo {
-    font-family: "Pan Pizza", sans-serif;
+    font-family: 'Caveat', cursive;
     font-size: 60pt;
     font-weight: 100;
     color: #B30000;
@@ -111,7 +109,7 @@ img {
     padding: 3%;
     background-color: #B30000;
     color: white;
-    font-family: "Inter", sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -120,12 +118,12 @@ img {
     padding: 3%;
     background-color: antiquewhite;
     color: #B30000;
-    font-family: "Inter", sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-radius: 5px;
 }
 
 .sabor {
-    font-family: "Pan Pizza", sans-serif;
+    font-family: 'Caveat', cursive;
     font-size: 30pt;
     font-weight: 200;
     color: #B30000;
@@ -133,7 +131,7 @@ img {
 
 .ingredientes {
     margin: 0;
-    font-family: "Inter", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #B30000;
     font-size: 12pt;
     font-style: italic;
